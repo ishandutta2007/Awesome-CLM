@@ -1,11 +1,28 @@
-# Awesome-CLM
+# 🌟 Awesome-CLM 🌟
 ## Causal Language Modeling (CLM): Variants, Types, & Applications
 
-Causal Language Modeling (CLM)—often referred to as autoregressive language modeling—is the dominant training paradigm for modern Large Language Models (LLMs). The core objective is simple: given a sequence of tokens, predict the exact next token in the sequence. It enforces a strict causal mask, ensuring that the model cannot look ahead into the future when predicting the present.
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome CLM Banner" width="100%" />
+</div>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CLM"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CLM?style=flat-square" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CLM/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-CLM?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-## 1. Core Architectural & Masking Variants
+## 📖 Introduction to Causal Language Modeling (CLM)
+
+**Causal Language Modeling (CLM)**—often referred to as autoregressive language modeling—is the dominant training paradigm for modern Large Language Models (LLMs) like GPT-4, Llama 3, and Mistral. 
+
+The core objective is simple: given a sequence of tokens, predict the exact next token in the sequence. It enforces a strict causal mask, ensuring that the model cannot look ahead into the future when predicting the present. This architecture forms the foundation of modern generative AI, code completion engines, and instruction-tuned chatbots.
+
+---
+
+## 🏗️ 1. Core Architectural & Masking Variants
 
 These variants define how the underlying attention mechanism enforces causality or optimizes how tokens are processed.
 
@@ -17,7 +34,7 @@ These variants define how the underlying attention mechanism enforces causality 
 
 ---
 
-## 2. Advanced Training & Objective Types
+## ⚡ 2. Advanced Training & Objective Types
 
 These variations alter how the causal objective is calculated, evaluated, or augmented during the optimization phase.
 
@@ -29,7 +46,7 @@ These variations alter how the causal objective is calculated, evaluated, or aug
 
 ---
 
-## 3. Real-World Downstream Applications
+## 🚀 3. Real-World Downstream Applications
 
 Because causal models excel at open-ended generation, they serve as the backbone engine for most consumer-facing AI systems.
 
@@ -41,7 +58,7 @@ Because causal models excel at open-ended generation, they serve as the backbone
 
 ---
 
-## 4. Sampling & Inference Execution Variants
+## 🎛️ 4. Sampling & Inference Execution Variants
 
 These runtime variations do not change model weights, but dictate how the causal output distribution is decoded into text.
 
