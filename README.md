@@ -67,3 +67,17 @@ These runtime variations do not change model weights, but dictate how the causal
 | [**Greedy Search Decoding**](details/greedy_search_decoding.md) | *Type:* Selects the single highest-probability token at every step.<br>*Behavior:* Highly deterministic, but prone to getting stuck in repetitive text loops. | 2014 | [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215) |
 | [**Nucleus Sampling (Top-p) & Top-k**](details/nucleus_top_k_sampling.md) | *Type:* Dynamically samples from the smallest set of tokens whose cumulative probability exceeds a threshold $p$, or truncates options to the top $k$ choices.<br>*Behavior:* Introduces controlled creativity and prevents nonsensical text generations. | 2018 (Top-k)<br>2019 (Top-p) | Top-k: [Hierarchical Neural Story Generation](https://arxiv.org/abs/1805.04833)<br>Top-p: [The Curious Case of Neural Text Degeneration](https://arxiv.org/abs/1904.09751) |
 | [**Speculative Decoding**](details/speculative_decoding.md) | *Type:* Uses a tiny, fast "draft" causal model to generate a batch of candidate tokens, which are then verified in a single forward pass by a massive "target" model.<br>*Behavior:* Drastically scales up token generation speed without sacrificing final text quality. | 2022 | [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17106) |
+
+---
+
+## 📈 Star History
+
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-CLM&type=date&legend=bottom-right">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-CLM&type=date&theme=dark&legend=bottom-right" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-CLM&type=date&legend=bottom-right" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-CLM&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
